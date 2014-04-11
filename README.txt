@@ -1,5 +1,5 @@
-Player Textures Mod for Minetest-c55
-====================================
+Player Textures Mod for Minetest
+================================
 
 This mod allows players to use different textures. Just place the texture in
 the player_textures/textures/ folder like this:
