@@ -4,8 +4,8 @@ local got_gdl = minetest.get_dir_list
 
 if got_gdl then
 	for _, name in pairs(minetest.get_dir_list(mod_path.."/textures")) do
-		if name:sub(0, 7) == "player_" then
-			local player_name = name:sub(7):match("(.+)%.")
+		if name:sub(1, 7) == "player_" then
+			local player_name = name:sub(8):match("(.+)%.")
 			got_tex[player_name] = true
 		end
 	end
